@@ -74,3 +74,12 @@ To change environment variables on Windows:
 3. Select “Environment Variables…”
 4. Press “New…”
 5. Add two variables http_proxy and https_proxy both with the same value: http://172.16.199.40:8080
+
+
+#### For command promt
+To install packages under proxy, run these two lines and then pip install the required packages
+```
+set http-proxy= http://172.16.199.20:8080
+set https-proxy= http://172.16.199.20:8080
+```
+
